@@ -12,6 +12,7 @@ import sys
 import tkinter as tk
 
 import src.util as util
+import src.views as views
 
 version = "v0.0"
 locale = "ja_JP"
@@ -26,7 +27,9 @@ def main():
     if args.version :
         print(version)
     else:
-        print(_("Products"))
+        win = tk.Tk()
+        app = views.Wd_main(win)
+        app.mainloop()
 
 if __name__ == '__main__':
     main()
