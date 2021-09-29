@@ -14,19 +14,19 @@ import tkinter as tk
 import src.util as util
 
 version = "v0.0"
-locale = "ja"
+locale = "ja_JP"
 
 #main
 def main():
     #command option parser
     args = util.get_option()
     locale = args.langue
-    util.t(locale)
+    util.set_locale(locale)
 
     if args.version :
         print(version)
     else:
-        print(_("Produts"))
+        print(_("Products"))
 
 if __name__ == '__main__':
     main()

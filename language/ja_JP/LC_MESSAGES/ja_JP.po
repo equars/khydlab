@@ -13,7 +13,7 @@ msgstr ""
 "X-Generator: Poedit 2.2.3\n"
 
 msgid "Products"
-msgstr "製品投稿"
+msgstr "製品"
 
 msgid "Edit"
 msgstr "編集"
