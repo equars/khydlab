@@ -1,0 +1,5 @@
+msgid "Products"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
